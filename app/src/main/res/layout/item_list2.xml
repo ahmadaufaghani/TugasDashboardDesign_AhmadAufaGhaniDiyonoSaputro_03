@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="111dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/chair_5" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@id/item_image"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Item Name"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/item_desc"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/item_image"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Item Desc"
+        android:textColor="@color/grey"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/item_desc"
+        android:layout_toRightOf="@id/item_image"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Item Price"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>
